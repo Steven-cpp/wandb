@@ -32,7 +32,7 @@ nbclient~=0.10.1
 
 tensorflow~=2.18.0; python_version >= '3.9'
 
-tensorflow==2.9.2; python_version < '3.9' and sys_platform != 'darwin'
+tensorflow==2.12.1; python_version < '3.9' and sys_platform != 'darwin'
 # tensorflow==2.9.2 does not provide arm64 wheels for macOS.
 # This was fixed in later versions of tensorflow.
 tensorflow-macos==2.9.2; python_version < '3.9' and sys_platform == 'darwin'
